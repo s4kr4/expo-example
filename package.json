@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@types/expo": "^32.0.2",
+    "@types/expo__vector-icons": "^9.0.1",
     "@types/react": "^16.8.3",
     "@types/react-native": "^0.57.36",
     "@types/react-navigation": "^3.0.2",

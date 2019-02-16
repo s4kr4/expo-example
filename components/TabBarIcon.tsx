@@ -1,7 +1,7 @@
-import React from 'react';
-import { Icon } from 'expo';
+import React from 'react'
+import { Icon } from 'expo'
 
-import Colors from '../constants/Colors';
+import Colors from '../constants/Colors'
 
 interface Props {
   name: string
@@ -17,6 +17,6 @@ export default class TabBarIcon extends React.Component<Props> {
         style={{ marginBottom: -3 }}
         color={this.props.focused ? Colors.tabIconSelected : Colors.tabIconDefault}
       />
-    );
+    )
   }
 }

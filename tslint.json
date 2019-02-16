@@ -1,0 +1,54 @@
+{
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "prettier": [
+      true, {
+        "printWidth": 120,
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "all",
+        "arrowParens": "always"
+      }
+    ],
+    "member-access": false,
+    "member-ordering": [
+      true, { 
+        "order": "fields-first"
+      }
+    ],
+    "no-inferrable-types": false,
+    "curly": [true, "ignore-same-line"],
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-duplicate-imports": true,
+    "no-null-keyword": false,
+    "no-switch-case-fall-through": true,
+    "switch-default": true,
+    "triple-equals": [
+      true,
+      "allow-undefined-check"
+    ],
+    "no-require-imports": false,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+
+    "jsx-no-lambda": false,
+    "jsx-boolean-value": false
+  }
+}
